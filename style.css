@@ -19,6 +19,7 @@ span {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-with {
@@ -26,8 +27,12 @@ section {
     padding-left: 2%;
 }
 
+.big {
+    color: navy;
+}
+
 .half-with img {
-    width: 90%;
+    width: 80%;
 }
 
 .link-button {
@@ -43,3 +48,10 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.secand-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
